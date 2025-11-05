@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PhotoFolia-iii: A photo editing web application">
+    <meta name="keywords" content="photo editing, web application, PhotoFolia-iii">
+    <meta name="author" content="Muhammad Ishaq Khan - 0302-1905493">
+    <title>PhotoFolia-iii</title>
+
+<!-- Open Graph / Facebook -->
+<meta property="og:title" content="PhotoFolia – Capture. Create. Enhance.">
+<meta property="og:description" content="photofolia-iii is a modern photo editing web app that lets you transform your images with powerful filters and tools — directly in your browser. Fast, elegant, and creative.">
+<meta property="og:image" content="https://photofolia-iii.vercel.app/assets/social-preview.jpg">
+<meta property="og:url" content="https://photofolia-iii.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PhotoFolia">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="photofolia-iii – Capture. Create. Enhance.">
+<meta name="twitter:description" content="Edit your photos online with creative tools and filters. PhotoFolia brings studio-grade editing to your browser.">
+<meta name="twitter:image" content="https://photofolia-iii.vercel.app/assets/social-preview.jpg">
+<meta name="twitter:site" content="@yourtwitterhandle">
+
+<!-- Basic Meta -->
+<meta name="description" content="photofolia-iii – A modern web app for creative photo editing, filters, and artistic enhancement.">
+<meta name="author" content="Muhammad Ishaq Khan">
+<link rel="canonical" href="https://photofolia-iii.vercel.app/">
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="assets/social-preview.jpg" alt="profile picture" width="100%" height="auto" loading="lazy">
+       
+        <div class="hero-section">
+        <h1 class="hero-title">
+            Adnan Khan
+        </h1>
+        <h2 class="hero-subtitle">
+            Photographer
+        </h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </header>
+
+    <main>
+<div class="image-section" id="Portfolio">
+<img src="images/img-01.webp" alt="image-1" width="100%" height="auto" loading="lazy">
+<img src="images/img-02.webp" alt="image-2" width="100%" height="auto" loading="lazy">
+<img src="images/img-03.webp" alt="image-3" width="100%" height="auto" loading="lazy">
+<img src="images/img-04.webp" alt="image-4" width="100%" height="auto" loading="lazy">
+<img src="images/img-05.webp" alt="image-5" width="100%" height="auto" loading="lazy">
+</div>
+<div class="contact-section" id="Contact">
+<form id="contact-form" action="" method="post">
+    <fieldset>
+        <legend>Contact Me</legend>
+        <p>
+              I’d love to hear from you! Whether you’re interested in booking a photoshoot,
+               collaborating on a creative project, or simply sharing your thoughts about 
+               my work, feel free to reach out. Every message matters — let’s create 
+               something timeless together. You can contact me through this form or via my 
+               social links below.
+        </p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+        <p class="submit-message">form submission successful</p>
+    </fieldset>
+</form>
+</div>
+
+    </main>
+
+<footer>
+    <p>© 2023 <a href="#home">Adnan Khan</a>. All rights reserved.</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
